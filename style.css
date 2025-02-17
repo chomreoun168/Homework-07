@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #5f56cb, #ae51c3);
+}
+
+.sec-1{
+    margin: 50px  auto;
+}
+table{
+    width: 1200px;
+    margin: auto;
+    border-collapse:collapse ;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+table thead tr th{
+    background-color: #36304a;
+    color: white;
+    border: none;
+}
+td{
+    color: grey;
+}
+tr{
+    margin: 10px 0px;
+}
+table, th, td{
+    border: none;
+}
+
+
+table tbody td:nth-child(1) {
+    padding-block: 10px;
+    padding-left:40px ;
+    text-align: left;
+}
+table thead th:nth-child(1){
+    padding-block: 10px;
+    padding-left: 40px ;
+    text-align: left;
+}
+/* ///// */
+table tbody td:nth-child(2) {
+    text-align: left;
+    padding-block: 10px;
+    padding-left: 8px ;
+
+}
+table thead th:nth-child(2){
+    text-align: left;
+    padding-block: 10px;
+    padding-left: 8px ;
+}
+/* ///// */
+table tbody td:nth-child(3) {
+    text-align: left;
+    padding-block: 10px;
+    padding-left: 8px ;
+}
+table thead th:nth-child(3){
+    text-align: left;
+    padding-block: 10px;
+    padding-left: 8px ;
+}
+/* ///// */
+table tbody td:nth-child(4) {
+    text-align: right;
+    padding-block: 10px;
+    padding-left: 8px ;
+}
+table thead th:nth-child(4){
+    text-align: right;
+    padding-block: 10px;
+    padding-left: 8px ;
+}
+/* ///// */
+table tbody td:nth-child(5) {
+    text-align: right;
+    padding-block: 10px;
+    padding-left: 8px ;
+}
+table thead th:nth-child(5){
+    text-align: right;
+    padding-block: 10px;
+    padding-left: 8px ;
+}
+/* ///// */
+table tbody td:nth-child(6) {
+    text-align: right;
+    padding-block: 10px;
+    padding-right: 62px;
+    padding-left: 8px ;
+}
+table thead th:nth-child(6){
+    text-align: right;
+    padding-block: 10px;
+    padding-right: 62px;
+    padding-left: 8px ;
+}
+
+
+table tbody tr:nth-child(even){
+    background: #eee;
+}
+table tbody tr:hover{
+    background-color: #eee;
+}
